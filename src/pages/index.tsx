@@ -8,10 +8,10 @@ function Home() {
   return (
     <Layout>
       <Head>
-        <title>My Website</title>
+        <title>JoaoBR200</title>
       </Head>
       <div>
-        <h1>My website</h1>
+        <h1>Bash</h1>
       </div>
     </Layout>
   );
