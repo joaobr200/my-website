@@ -41,6 +41,7 @@ export default class MyDocument extends Document {
         <Head>
           <meta charSet="UTF-8" />
           <link rel="icon" href="/favicon.ico" />
+          <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
           <Main />
