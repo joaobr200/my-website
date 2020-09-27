@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "next build",
-    "build:export": "next build && next export"
+    "build": "next build"
   },
   "dependencies": {
     "next": "^9.5.3",
