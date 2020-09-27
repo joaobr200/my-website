@@ -1,42 +1,41 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
-    width:100%;
-    padding:8px;
+  width: 100%;
+  padding: 8px;
 `;
 
 export const MadeWithLove = styled.div`
-  
-  > p, a {
-    color: #f3f3f3;
-    font-size:28px;
-    letter-spacing:1.2px;
+  > p,
+  a {
+    color: ${({ theme }) => theme.color};
+    font-size: 28px;
+    letter-spacing: 1.2px;
   }
 
-   > p svg {
-      fill: #f3f3f3;
-      width:28px;
-      height:28px;
-    }
-
-`
+  > p svg {
+    fill: ${({ theme }) => theme.color};
+    width: 28px;
+    height: 28px;
+  }
+`;
 
 export const NetWork = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    svg {
-      fill:#f3f3f3;
-      width:36px;
-      height:36px;
-    }
+  svg {
+    fill: ${({ theme }) => theme.color};
+    width: 36px;
+    height: 36px;
+  }
 
-    a + a {
-      margin-left: 12px;
-    }
-`
+  a + a {
+    margin-left: 12px;
+  }
+`;
