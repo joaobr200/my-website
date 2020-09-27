@@ -40,6 +40,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="UTF-8" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
         <body>
           <Main />

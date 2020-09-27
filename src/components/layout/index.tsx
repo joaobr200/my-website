@@ -1,17 +1,30 @@
 import React from "react";
-import { Container } from "./styles";
+import Head from "next/head";
 
 import Nav from "../nav";
 import Footer from "../footer";
+import { Container } from "./styles";
 
-const Layout = (props) => {
+const Layout = ({ children, title, description }: LayoutProps) => {
   return (
     <Container>
-      <Nav/>
-      <main>{props.children}</main>
-      <Footer/>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+      </Head>
+      <Nav />
+      <main>{children}</main>
+      <Footer />
     </Container>
   );
 };
 
+type WithChildren = {
+  children?: React.ReactNode;
+};
+
+interface LayoutProps extends WithChildren {
+  title?: string;
+  description?: string;
+}
 export default Layout;
