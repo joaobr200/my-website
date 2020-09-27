@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <Layout title="JoaoBR200 Website">
       <div>
-        <h1>Bash</h1>
+        <h1>website</h1>
       </div>
     </Layout>
   );
