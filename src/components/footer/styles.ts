@@ -1,41 +1,32 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Footer = styled.footer`
+  width: 100%;
+  padding: 15px;
+
+  background: ${({ theme }) => theme.colors.gray};
+`;
+
+export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  width: 100%;
-  padding: 8px;
 `;
 
 export const MadeWithLove = styled.div`
+  width: 100%;
+  opacity: 0.6;
+  font-size: 1rem;
+
   > p,
   a {
     color: ${({ theme }) => theme.color};
-    font-size: 28px;
     letter-spacing: 1.2px;
   }
 
-  > p svg {
-    fill: ${({ theme }) => theme.color};
-    width: 28px;
-    height: 28px;
-  }
-`;
-
-export const NetWork = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   svg {
-    fill: ${({ theme }) => theme.color};
-    width: 36px;
-    height: 36px;
-  }
-
-  a + a {
-    margin-left: 12px;
+    color: red;
+    width: 12px;
+    height: 12px;
   }
 `;
