@@ -8,15 +8,28 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: ${({ theme }) => theme.background};
     color: ${({ theme }) => theme.color};
+    font-family: "Roboto", sans-serif;
   }
 
   a,
   ul {
     text-decoration:none;
     list-style:none;
+  }
+
+  .container {
+    width: 100%;
+    max-width:1024px;
+    
+    margin:0 auto;
+    padding:8px;
   }
 
 `;

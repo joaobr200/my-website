@@ -1,19 +1,26 @@
-import React from 'react';
+import React from "react";
 import Link from "next/link";
 
-
-import { Header, NavBar,Logo } from './styles';
+import Network from "../../components/network";
+import LogoSVG from "../../assets/logo.svg";
+import { Header, NavBar, Logo } from "./styles";
 
 const Nav: React.FC = () => {
   return (
     <Header>
-      <NavBar>
+      <div className="container">
+        <NavBar>
           <Logo>
             <Link href="/">
-              <a>Joaobr200</a>
+              <a>
+                <LogoSVG />
+              </a>
             </Link>
           </Logo>
-      </NavBar>
+
+          <Network />
+        </NavBar>
+      </div>
     </Header>
   );
 };
