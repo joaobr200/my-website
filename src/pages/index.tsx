@@ -11,7 +11,7 @@ import { Welcome, Stack, About, Portifolio } from "../styles/Pages/Home";
 const Home = () => {
   return (
     <Layout title="JoaoBR200 Website">
-      <Welcome className="container">
+       <Welcome className="container">
         <div>
           <h1>
             <TypeWriter text="Seja bem vindo ao meu site" />
