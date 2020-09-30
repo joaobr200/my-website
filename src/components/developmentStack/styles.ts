@@ -9,7 +9,7 @@ export const Container = styled.div`
   justify-content: space-between;
   article {
     width: 100%;
-    margin: 8px;
+    margin: 30px 8px 30px 8px;
     max-width: 140px;
 
     display: flex;
@@ -31,6 +31,19 @@ export const Container = styled.div`
     letter-spacing: 0.2rem;
   }
 
+  article img.react{
+    animation: rotate 25s linear infinite;
+
+    @keyframes rotate {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(720deg);
+      }
+    }
+  }
+
   @media screen and (max-width: 867px) {
     overflow: scroll;
 
@@ -40,6 +53,48 @@ export const Container = styled.div`
 
     article + article {
       margin-left: 100px;
+    }
+  }
+`;
+
+export const About = styled.div`
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  div {
+    text-align: center;
+    color: ${({ theme }) => theme.colors.gray};
+  }
+
+  div h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  div p {
+    margin: 8px 0;
+    font-weight: 500;
+    line-height: 1.2rem;
+  }
+
+  @media screen and (max-width: 867px) {
+    flex-direction: column;
+
+    div {
+      width: 400px;
+    }
+
+    div + div {
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    div {
+      width: 100%;
     }
   }
 `;
