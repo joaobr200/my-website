@@ -16,7 +16,7 @@ const About: React.FC = () => {
               <p>
                 Além da programação, sou mecânico de aeronaves apaixonado pela
                 aviação, com a pandemia da COVID-19 o setor da aviação teve um
-                impacto significativo no setor da aviação devido às restrições
+                impacto significativo devido às restrições
                 de viagem, bem como a queda na demanda entre os viajantes.
               </p>
               <p>
