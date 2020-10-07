@@ -11,12 +11,18 @@ export default [
     school: "Origamid",
     name: "Web Design completo",
     url: "https://www.origamid.com/certificate/96cc6a3a/",
-    imageUri: "",
+    imageUri: "https://raw.githubusercontent.com/joaobr200/only_images/main/origamid_logo.png?token=AP4OUJZOQQ3R4ALPCWSDRF27PXCSS",
   },
   {
     school: "Origamid",
     name: "React completo",
     url: "https://www.origamid.com/certificate/99cc490e/",
-    imageUri: "",
+    imageUri: "https://raw.githubusercontent.com/joaobr200/only_images/main/origamid_logo.png?token=AP4OUJZOQQ3R4ALPCWSDRF27PXCSS",
+  },
+  {
+    school: "Origamid",
+    name: "VueJS completo",
+    url: "https://www.origamid.com/certificate/18f5d213/",
+    imageUri: "https://raw.githubusercontent.com/joaobr200/only_images/main/origamid_logo.png?token=AP4OUJZOQQ3R4ALPCWSDRF27PXCSS",
   },
 ];
