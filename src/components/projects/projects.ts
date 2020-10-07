@@ -5,7 +5,7 @@ export default [
     url:
       "https://github.com/joaobr200/WeatherNow",
     imageUri:
-      "https://raw.githubusercontent.com/joaobr200/WeatherNow/master/src/assets/screenshot.png",
+      "/projects/weather-now.png",
   },
   {
     name: "AppBiblia",
@@ -13,7 +13,7 @@ export default [
     url:
       "https://github.com/joaobr200/AppBiblia",
     imageUri:
-      "https://raw.githubusercontent.com/joaobr200/AppBiblia/master/app%20biblia.png",
+      "/projects/app-biblia.png",
   },
   {
     name: "REST Web API",
@@ -21,7 +21,7 @@ export default [
     url:
       "https://github.com/joaobr200/express-api",
     imageUri:
-      "https://raw.githubusercontent.com/joaobr200/only_images/main/api.png?token=AP4OUJ276QOELPYUYFJULY27PXEB2",
+      "/projects/api.png",
   },
   
 ];
